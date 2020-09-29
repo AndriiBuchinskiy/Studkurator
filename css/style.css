@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+* {
+	box-sizing: border-box;
+	z-index: 0;
+	margin: 0;
+	padding: 0;
+}
+.nav_image
+{
+   position: relative;
+   width: 50%;
+   left:250px;
+   
+}
+#prop 
+{ 
+
+  font-size: 20px;
+
+}
+.image-set {
+	width: 100%;
+	margin: auto;
+}
+
+.recipe {
+	position: relative;
+	width: 60%;
+	height: 150px;
+	margin: auto;
+	background-color: #1CC950;
+	margin-top: 100px;
+	z-index: 999;
+	font-size: 20px;
+}
+
+.recipe p {
+	background-color: #1CC950;
+}
+
+#comments {
+	width: 100%;
+}
+
+.comment_options {
+	width: 200px;
+	float: right;
+}
+
+.comment_options p {
+	width: 50px;
+	display: inline;
+}
+
+.comment_options p:hover {
+	text-decoration: underline overline;
+}
+
+.comment {
+	width: 100%;
+	border: 1px lightgreen solid;
+	display: block;
+}
+
+.comment_author {
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+
+.comment_author a{
+	color: black;
+}
+
+.recipe_img {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.check_box {
+	display: inline;
+	width: 50px;
+}
+
+.recipe_img img {
+	min-width: 100%;
+}
+
+.email_text {
+	width: 60px;
+	font-size: 25px;
+}
+
+.pass_text {
+	width: 100px;
+	font-size: 25px;
+}
+
+.login_text {
+	width: 60px;
+	font-size: 25px;
+}
+
+.rpt_text {
+	width: 180px;
+	font-size: 25px;
+}
+
+.country_select {
+	width: 90px;
+	font-size: 25px;
+}
+
+.conatiner {
+	position: relative;
+	left: 25%;
+	width: 70%;
+	height: 500px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	width: 20%;
+	float: left;
+}
+
+.alert {
+	color: black;
+}
+
+.alert a {
+	color: black;
+}
+
+.successfull {
+	width: 30%;
+	margin: auto;
+}
+
+.right-box {
+	width: 20%;
+	position: sticky;
+	z-index: 1000;
+	top: 4em;
+	float: right;
+}
+
+.right-box p {
+	background-color: lightgreen;
+}
+
+.view_article {
+	position: relative;
+	width: 60%;
+	background-color: #1CC950;
+	margin: auto;
+	height: auto;
+	padding-bottom: 10px;
+	z-index: 999;
+}
+
+.view_article p {
+	margin: 30px;
+	background-color: #1CC950;
+	font-size: 30px;
+
+}
+
+.view_article h2 {
+	margin: 10px;
+	background-color: #1CC950;
+
+}
+
+.article_image {
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+}
+
+.article_image img {
+	min-width: 100%;
+}
+
+.conatiner image {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.body-new {
+	width: 80%;
+	position: relative;
+	margin: auto;
+	top: 25em;
+	z-index: 999;
+}
+
+.add_text {
+	width: 10%;
+}
+
+.paragraph {
+	position: relative;
+	width: 30%;
+	min-width: 300px;
+	margin: auto;
+	padding: 3em;
+	z-index: 999;
+}
+
+.paragraph p {
+	background-color: lightgreen;
+}
+
+.ornmnt {
+	width: 40%;
+	height: 200px;
+	overflow: hidden;
+	margin: auto;
+	opacity: 0.5;
+}
+
+#pages_list {
+	width: 100%;
+}
+
+#about_div {
+	width: 80%;
+	margin: auto;
+}
+
+#pages {
+	position: relative;
+	width: 18%;
+	margin: auto;
+	list-style: none;
+}
+
+#pages li {
+	display: inline;
+	padding: 10px;
+
+}
+
+#pages li:hover {
+	cursor: pointer;
+	text-decoration: overline underline;
+}
+
+#edit_comment_box {
+	width: 500px;
+	height: 250px;
+	position: fixed;
+	top: 200px;
+	left: 35%;
+	border: 1px white solid;
+	background-color: green;
+	display: none;
+}
+
+#edit_commet_box textarea {
+	width: 100%;
+	height: 150px;
+}
+
+#edit_comment_box input {
+	width: 100px;
+}
+
+#close {
+	width: 13px;
+	position: absolute;
+	cursor: pointer;
+}
+
+#inner_image {
+	max-width: 100%;
+}
+
+#add_new_button {
+	text-decoration: none;
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	z-index: 1000;
+}
+
+#add_new_button:hover {
+	text-decoration: underline overline;
+}
+
+#viewbox {
+	position: fixed;
+	top: 100px;
+	left: 25%;
+	width: 900px;
+	display: none;
+	z-index: 1000;
+}
+
+#viewbox h2 {
+	background-color: white;
+}
+
+#like, #likes_amount {
+	width: 50px;
+	display: inline;
+}
+
+#like:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+#comment_field {
+	min-height: 150px;
+}
+
+#submit_comment {
+	width: 100px;
+}
+
+#confirm_delete {
+	position: relative;
+	margin: auto;
+	width: 35%;
+	height: 200px;
+	background-color: green;
+	padding: 30px;
+}
+
+#profile_image {
+	position: relative;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 450px;
+	overflow: hidden;
+	border-style: solid;
+}
+
+#profile_info {
+	position: relative;
+	width: 40%;
+	margin: auto;
+}
+
+#profile_image img {
+	width: 110%;
+	height: 110%;
+}
+
+#profile_edit {
+	position: relative;
+	width: 9%;
+	margin: auto;
+	padding: 5px;
+	background-color: #1CC950;
+}
+
+#profile_edit:hover {
+	opacity: 0.5;
+}
+
+#profile_edit a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Amatic SC', cursive;
+}
+
+#profile {
+	position: relative;
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+	z-index: 999;
+}
+
+#profile_info h3 {
+	position: relative;
+	width: 10%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	display: inline;
+	padding: 60px;
+	margin: auto;
+}
+
+#confirm_delete input {
+	width:30%;
+	display: inline;
+	margin: 30px;
+}
+
+#add_recipe {
+	position: relative;
+	width: 50%;
+	height: 500px;
+	margin: auto;
+	margin-top: 100px;
+	z-index: 999;
+}
+
+#add_recipe p {
+	background-color: lightgreen;
+}
+
+#reg_success {
+	width: 30%;
+	margin: auto;
+}
+
+#reg_success a {
+	width: 30px;
+	margin: auto;
+}
+
+#deleted_success {
+	width: 30%;
+	margin: auto;
+}
+
+#deleted_success a {
+	width: 30px;
+	margin: auto;
+}
+
+#signup_box {
+	width: 40%;
+	margin: auto;
+}
+
+#signup_box p {
+	background-color: lightgreen;
+}
+
+#back_from_about {
+	background-color: green;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	color: black;
+}
+
+#login_box {
+	width: 40%;
+	margin: auto;
+}
+
+#login_box p {
+	background-color: lightgreen;
+}
+
+#about_header {
+	position: relative;
+	width: 80%;
+	background-color: lightgreen;
+	z-index: 999;
+	font-size: 120px;
+}
+
+#back_button {
+	position: relative;
+	margin: auto;
+	width: 4.8%;
+	color: black;
+	background-color: #1CC950;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	z-index: 999;
+}
+
+#back_button:hover {
+	cursor: pointer;
+	text-decoration: underline overline;
+}
+
+#footer_text {
+	color: black;
+	width: 19%;
+	margin: auto;
+	background-color: lightgreen;
+}
+
+#SIGN_UP_BTN {
+	text-decoration: none;
+}
+
+#SIGN_IN_BTN {
+	text-decoration: none;
+}
+
+#about {
+	text-decoration: none;
+}
+
+#about:hover {
+	opacity: 0.5;
+}
+
+#about_text {
+	width: 100px;
+	font-size: 30px;
+	margin: auto;
+	background-color: lightgreen;
+}
+
+#setup {
+	position: relative;
+	left: 15%;
+	list-style: none;
+	z-index: 10000;
+	width: 20%;
+}
+
+#setup li {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#setup li a {
+	color: black;
+}
+
+#setup li:hover {
+	text-decoration: underline overline;
+}
+
+#register_button {
+	width: 100px;
+}
+
+#ornament {
+	max-width: 100%;
+	height: auto;
+}
+
+#HEADER {
+	position: relative;
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	width: 50%;
+	margin: auto;
+	padding: 0.4em;
+	background-color: lightgreen;
+	z-index: 999;
+}
+
+#list {
+	width: 100px;
+}
+
+#Ttable {
+	position: relative;
+	right: 0%;
+	width: 90%;
+	z-index: 999;
+	margin-left: 20%;
+	font-size: 25px;
+	border-spacing: 30px 30px;
+
+
+}
+
+body {
+	background-color: lightgreen;
+}
+
+p {
+	font-family: Pangolin;
+	color: black;
+	background-color: green;
+}
+
+nav {
+	position: sticky;
+	top: 0px;
+	width: 0%;
+	left: 0px;
+	padding: 0px;
+	background-color: lightgreen;
+	border: 100px;
+	float: left;
+	
+}
+
+header {
+	position: absolute;
+	background-size: cover;
+	height: 20em;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+header div {
+	position: relative;
+	top: 30%;
+}
+
+input {
+	width: 100%;
+}
+
+h1 {
+	width: 20%;
+	margin: auto;
+	font-family: 'Amatic SC', cursive;
+	color: #191970;
+	position: relative;
+	top: calc(50% - 100px);
+	font-weight: bold;
+	font-size: 100px;
+}
+
+h2 {
+	font-family: Pangolin;
+	display: inline;
+	width: 50%;
+	color: black;
+	font-size:20px; 
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+h2:hover {
+	text-decoration: underline overline;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+	.conatiner {
+		width: 100%;
+		min-width: 350px;
+	}
+
+	.ornmnt {
+		width: 45%;
+		min-width: 290px;
+	}
+}
